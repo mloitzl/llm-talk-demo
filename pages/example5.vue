@@ -71,7 +71,7 @@ class CodeEditTool extends Tool {
 const tools = [new CodeListTool(), new CodeViewTool(), new CodeEditTool()]
 
 const model = new ChatOpenAI({
-  modelName: 'gpt-4-0613',
+  modelName: 'gpt-4-1106-preview',
   temperature: 0,
   openAIApiKey: runtimeConfig.public.openAiApiKey
 })

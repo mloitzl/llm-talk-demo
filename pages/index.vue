@@ -8,7 +8,7 @@ const result = ref('')
 const isLoading = ref(false)
 
 const chat = new ChatOpenAI({
-  modelName: 'gpt-4-0613',
+  modelName: 'gpt-4-1106-preview',
   openAIApiKey: runtimeConfig.public.openAiApiKey
 })
 
